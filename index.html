@@ -4,8 +4,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="" /> 
     <style>
-        body {background: rgba(240, 248, 255, 0.5);}
-            ul {
+        body {background: rgba(240, 248, 255, 0.5);}   
+#menu ul {
       list-style: none; /*убираем маркеры списка*/
       margin-left: 150px; /*убираем отступы*/
       padding-left: 10px; /*убираем отступы*/
@@ -14,7 +14,7 @@
       height: 50px; /*задаем высоту*/
                 border-radius: 0 10px;
     }
-    a {
+#menu a {
       text-decoration: none; /*убираем подчеркивание текста ссылок*/
       background:#03c03c; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
       color:#fff; /*меняем цвет ссылок*/
@@ -27,15 +27,16 @@
       -o-transition: all 0.3s 0.01s ease;
       -webkit-transition: all 0.3s 0.01s ease;
     }
-    a:hover {
+#menu a:hover {
       background:#084586;/*добавляем эффект при наведении*/
     }
-    li {
+#menu li {
       float:left; /*Размещаем список горизонтально для реализации меню*/
     </style>
     
     <div style="margin-left: 150px; font-family: tahoma; font-size: 20px">Юридическое агенство Фин - Право</div>
-<ul>
+<div id="menu">
+    <ul>
     <li><a href="#">О Компании</a></li>
     <li><a href="#">Услуги</a></li>
     <li><a href="#">Прайс-лист</a></li>
@@ -43,6 +44,7 @@
     <li><a href="#">Новости</a></li>
     <li><a href="#">Контакты</a></li>
     </ul>
+    </div>
     <div id="logo" style="position:relative; bottom:100px; width: 136px;height: 176px;background: url(logo.jpg) no-repeat;">  
     <div style="position:relative; top:200px; left:10px">
         <p>Услуги</p>
