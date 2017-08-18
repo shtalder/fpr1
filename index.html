@@ -9,28 +9,26 @@ body {background: rgba(240, 248, 255, 0.5);}
 #logo {position:relative; bottom: 150px; left:10px; width: 225px;height: 252px;background:url(logo.jpg) no-repeat;}
 #head {margin-left: 425px; font-family: tahoma;}
 #menu ul {
-      list-style: none; /*убираем маркеры списка*/
-      margin-left: 235px; /*убираем отступы*/
-      padding-left: 200px; /*убираем отступы*/
-      margin-top:25px; /*делаем отступ сверху*/
-      background:#66cdaa; /*добавляем фон всему меню (заменив этот параметр, вы поменяете цвет всего меню)*/
-      height: 50px; /*задаем высоту*/
-      border-radius: 0 10px;
+list-style: none; /*убираем маркеры списка*/
+margin-left: 235px; /*отступы*/
+padding-left: 200px; /*отступы*/
+margin-top:25px; /*отступ сверху*/
+background:#66cdaa; /*добавляем фон всему меню (заменив этот параметр, вы поменяете цвет всего меню)*/
+height: 50px; /*задаем высоту*/
+border-radius: 0 10px;
     }
 #menu a {
-      text-decoration: none; /*убираем подчеркивание текста ссылок*/
-      background:#66cdaa; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
-
-	color:#084586; /*меняем цвет ссылок*/
-      padding:0px 15px; /*добавляем отступ*/
-      font-family: arial; /*меняем шрифт*/
-      line-height:50px; /*ровняем меню по вертикали*/
-      display: block; 
-      border-left: 1px solid #f0f8ff; /*добавляем бордюр справа*/
-
-	-moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
-      -o-transition: all 0.3s 0.01s ease;
-      -webkit-transition: all 0.3s 0.01s ease;
+text-decoration: none; /*убираем подчеркивание текста ссылок*/
+background:#66cdaa; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+color:#084586; /*меняем цвет ссылок*/
+padding:0px 15px; /*добавляем отступ*/
+font-family: arial; /*меняем шрифт*/
+line-height:50px; /*ровняем меню по вертикали*/
+display: block; 
+border-left: 1px solid #f0f8ff; /*добавляем бордюр справа*/
+-moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+-o-transition: all 0.3s 0.01s ease;
+-webkit-transition: all 0.3s 0.01s ease;
     }
 #menu a:hover {
       background:#bbbbbb;/*добавляем эффект при наведении*/
@@ -65,8 +63,8 @@ background:url(l.jpg) no-repeat;
 width:57px;
 height:63px;
 }
-#menu ul{
-display: none;
+#menu {
+display: table-row;
 }
 #services{
 display: inline-block;
