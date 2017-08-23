@@ -1,1 +1,128 @@
-
+<html>
+<meta charset="utf-8">
+<title>Фин-Право</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="" /> 
+<style>
+h1 {font-size:20px; color: #66cdaa;}
+body {background: rgba(240, 248, 255, 0.5);font-size: 18px;}
+#logo {position:relative; left:10px; width: 225px;height: 252px;background:url(logo.jpg) no-repeat;}
+#head {position:relative; bottom:270px;margin-left: 525px; font-family: tahoma;}
+ul {
+position: relative;
+bottom: 270px;
+list-style: none; /*убираем маркеры списка*/
+margin-left: 235px; /*отступы*/
+padding-left: 300px; /*отступы*/
+margin-top:25px; /*отступ сверху*/
+background:#66cdaa; /*добавляем фон всему меню (заменив этот параметр, вы поменяете цвет всего меню)*/
+height: 50px; /*задаем высоту*/
+border-radius: 0 10px;
+    }
+#menu a {
+text-decoration: none; /*убираем подчеркивание текста ссылок*/
+background:#66cdaa; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+color:#084586; /*меняем цвет ссылок*/
+padding:0px 15px; /*добавляем отступ*/
+font-family: arial; /*меняем шрифт*/
+font-size: 20px;
+line-height:50px; /*ровняем меню по вертикали*/
+display: block; 
+border-left: 1px solid #f0f8ff; /*добавляем бордюр справа*/
+-moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+-o-transition: all 0.3s 0.01s ease;
+-webkit-transition: all 0.3s 0.01s ease;
+    }
+#menu a:hover {
+      background:#bbbbbb;/*добавляем эффект при наведении*/
+    }
+#menu li {
+      float:left; /*Размещаем список горизонтально для реализации меню*/
+        }
+#menu ul li a.active{
+	background:#bbbbbb;
+}
+#services
+{position:relative; bottom: 100px; left:20px; width: 200px; height: 450px; border: 1px; background-color: #66cdaa; border-radius: 0 40px; padding-top: 1px;}
+#content {position:relative; bottom: 650px; left:530px; color: #575e4e; font-family:'PT Sans'; font-weight: normal; font-style: normal;}
+a {color:#fff; text-decoration: none;}
+@media screen and (max-width: 800px) {
+	ul {
+margin:0;
+padding:0;
+position: static;
+	}
+* {
+margin: 0;
+padding: 0;
+overflow-wrap: break-word;
+word-wrap: break-word;
+-webkit-hyphens: auto;
+-ms-hyphens: auto;
+-moz-hyphens: auto;
+hyphens: auto;
+}	
+#logo{
+position:static;
+display: inline-block;
+background:url(l.jpg) no-repeat;
+width:57px;
+height:63px;
+float:left;
+}
+#head{
+position:static;
+display: inline;
+}
+#menu {
+display: inline-block;
+}
+#services{
+display: inline-block;
+position:static;
+height: 260px;
+margin-top: 20px;
+clear:both;
+}
+#content{
+display: inline-block;
+position:static;
+	}
+</style>
+<div id="logo"></div>
+    <div id="head"><p><font size="5">Юридическое агенство</font> <font size="6", color="#084586"><b>Фин - Право</b></font></p>
+    <p><a style="color: #000000" href="tel:+79999999999"><font size="5">&#9990; </font>+7 999 999 99 99</a> &emsp;<a style="color: #000000" href="mailto:finpravo74@yandex.ru">&#9993; finpravo74@ya.ru</a></p>
+    </div>
+<div id="menu">
+    <ul>
+    <li><a href="/fpr1/">О Компании</a></li>
+    <li><a href="#">Услуги</a></li>
+    <li><a href="#">Прайс-лист</a></li>
+    <li><a style="background:#bbbbbb" href="/fpr1/dogovor.html">Договор</a></li>
+    <li><a href="#">Новости</a></li>
+    <li><a style="border-right: 1px solid #f0f8ff;" href="#">Контакты</a></li>
+    </ul>
+</div>
+    <div id="services">
+        <p align="center"><font color="#084586" size="5"><b>Услуги</b></font></p>
+        <p align="center"><a href="#"><font color="#084586">&#10004; Услуга №1</font></a></p>
+        <p align="center"><a href="#"><font color="#084586">&#10004; Услуга №2</font></a></p>
+        <p align="center"><a href="#"><font color="#084586">&#10004; Услуга №3</font></a></p>
+        <p align="center"><a href="#"><font color="#084586">&#10004; Услуга №4</font></a></p>
+        <p align="center"><a href="#"><font color="#084586">&#10004; Услуга №5</font></a></p>
+        <p align="center"><a href="#"><font color="#084586">&#10004; Услуга №6</font></a></p>
+        <p align="center"><a href="#"><font color="#084586">&#10004; Услуга №7</font></a></p>
+        <p align="center"><a href="#"><font color="#084586">&#10004; Услуга №8</font></a></p>
+        <p align="center"><a href="#"><font color="#084586">&#10004; Услуга №9</font></a></p>
+        </div>
+    <div id="content">
+        <h1>Заголовок</h1>
+<p><b>Договор на юридическую услугу</b></p>
+<p><b>Договор на юридическое сопровождение кредитной задолженности</b></p>
+<p>Компания Фин-право предоставляет услугу «юридическое сопровождение кредитной задолженности» по публичному договору (оферте)</p>
+<p><b>Офе́рта</b> - (лат. offero — предлагаю) — предложение о заключении сделки, в котором изложены существенные условия договора, адресованное определенному лицу, ограниченному или неограниченному кругу лиц. </p>
+<p>Оферта сопровождается следующим пакетом документов:</p>
+<p><b>Задание </b>– задание клиента на работу по юридическому сопровождению, определяющие сущность услуги и поручения, отражающие желаемый результат для Заказчика. </p>
+<br />
+<p><b>Правила работы</b> - правила, регулирующие порядок работы Исполнителя по проблемной задолженности Заказчика</p>
+    </div>
